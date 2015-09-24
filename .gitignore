@@ -55,3 +55,6 @@ docs/_build/
 
 # PyBuilder
 target/
+
+# Original hosts file
+hosts.orig
