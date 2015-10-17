@@ -27,3 +27,7 @@ just in case.**
 
 1. Run `python adaway.py` (`python` must be in version `2.x`, if it isn't, try
    `python2.7` or `python2`).
+
+## Credits
+
+- [AdAway](http://adaway.org) (the original Android app)
