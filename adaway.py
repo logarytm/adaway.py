@@ -25,13 +25,6 @@ class HostsEntry:
     def stringify(self):
         return "%s\t%s" % (self.ip, self.domain)
 
-def parse_hosts_file(data):
-    entries = []
-    rows = split_lines(data)
-    for row in rows:
-        entries.append(HostsEntry.parse(row))
-    return entries
-
 def download_hosts_file(url):
     response = urllib2.urlopen(url)
     return response.read()
