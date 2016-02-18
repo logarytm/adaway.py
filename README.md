@@ -1,5 +1,7 @@
 # AdAway for Desktop
 
+![stability-stable](https://img.shields.io/badge/stability-stable-green.svg)
+
 This program blocks ad servers globally by blacklisting them in `/etc/hosts`.
 
 Beware that if you have a HTTP server running on ports 80 or 443 (if you don't
@@ -7,11 +9,6 @@ know what a HTTP server is, you probably don't) then you may get additional log
 entries related to apps or websites trying to display ads. If so, the possible
 solutions are to change the listening port of the web server or provide the
 `-t` option to redirect them to another server.
-
-**This software is in testing stage. If you encounter problems, report an issue
-on [GitHub](https://github.com/winek/adaway-desktop/issues). Oh, and make
-a backup copy of `/etc/hosts` (or `C:\Windows\system32\drivers\etc\hosts`),
-just in case.**
 
 ## Usage
 
