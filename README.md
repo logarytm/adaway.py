@@ -1,6 +1,6 @@
 # AdAway for Desktop
 
-![stability-stable](https://img.shields.io/badge/stability-stable-green.svg)
+[![Maintenance](https://img.shields.io/maintenance/yes/2016.svg)]()
 
 This program blocks ad servers globally by blacklisting them in `/etc/hosts`.
 
